@@ -10,6 +10,7 @@ RUN npm install
 
 # copy the app
 COPY . .
+# Just a little change
 
 # expose port 3000 and start the app
 EXPOSE 3000
